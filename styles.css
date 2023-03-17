@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  padding: 5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+nav li {
+  font-size: 16px;
+  margin: 0 18px;
+  color: hsl(219, 9%, 45%);
+}
+
+nav .logo-links {
+  display: flex;
+}
+
+nav .logo-links img {
+  height: 25px;
+  margin-right: 4rem;
+}
+
+nav .avatar-group {
+  display: flex;
+  align-items: center;
+}
+
+nav .avatar-group .cart {
+  height: 25px;
+  margin-right: 2rem;
+}
+
+nav .avatar-group .avatar {
+  height: 50px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  gap: 10rem;
+}
+
+main .main-product-photos .main-image {
+  height: 500px;
+  border-radius: 15px;
+}
+
+main .main-product-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .product-company {
+  color: hsl(26, 100%, 55%);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+main .product-title {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+main .product-description {
+  color: hsl(219, 9%, 45%);
+  font-size: 16px;
+  line-height: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+main .product-price {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+main .product-discounted-price {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 2px;
+  color: hsl(26, 100%, 55%);
+  background-color: hsl(25, 100%, 94%);
+}
